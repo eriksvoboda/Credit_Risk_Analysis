@@ -69,3 +69,7 @@ The balanced accuracy of the ClusterCentroids model is 51%. The high risk precis
 - Low Risk F1 Score:97%
 
 ## Summary
+
+In regards to determining if a credit risk is high, all of the models have low precision. All of the models exhibit high precision for determining if a credit risk is low. Out of the six models, the Ensemble model is the strongest model to predict High Risk credit risk. The Ensemble model predicts the majority of high risk with a recall percent of 92%. However there were many instances that the model predicited a high risk, but they were actually a low risk. This would negatively impact the bank's reputation when a low risk gets marked as high risk and doesn't get approved for a loan. Customers would begin to go to other banks leading to decline in overall business. Also the high risk F1 Score is only 16%. And while no "good" F1 Score benchmark was provided on a scale of 0 - 100, 16% is still very low. 
+
+All of the models were strong in predicting actual low risk credit risks. However since they all are still weak when trying to predict true high risk credit, even the Ensemble model, for the reasons stated above I would not recommend the bank use any of the models. 
