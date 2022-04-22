@@ -16,3 +16,6 @@ We assessed the performance of all six models and based on the data can make a r
 
 ### RandomOverSampler Model
 
+![](/images/randomovrsmplr.png)
+
+
