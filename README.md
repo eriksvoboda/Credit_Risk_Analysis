@@ -11,3 +11,8 @@ Using the credit card dataset from LendingClub we used six machine learning mode
   - EasyEnsembleClassifier
 
 We assessed the performance of all six models and based on the data can make a recommendation regarding if they should be used to predict credit risk.
+
+## Results
+
+### RandomOverSampler Model
+
